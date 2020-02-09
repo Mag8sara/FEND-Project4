@@ -75,7 +75,7 @@ $(function() {
             });
         });
 
-        //comparing the feeds 
+        //comparing the two feeds 
         it('Checking the difference', function() {
             expect(feedone).not.toEqual(feedtwo);
         });
